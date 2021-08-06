@@ -36,7 +36,7 @@
     </script>
 
     <script id="handlers">
-      debugger; // once when the handler is declared
+      // once when the handler is declared
 
       /**
        * reads the user input from the form
@@ -44,7 +44,7 @@
        * and updates the UI for the user
        */
       const handleTyping = (event) => {
-        debugger; // each time a user types
+       // each time a user types
         console.log('removifying');
 
         // read the form to a local variable for debugging
@@ -54,7 +54,7 @@
         // update the program data with user input
         data.text = form.text.value;
         data.toRemove = form.remove.value;
-
+ debugger; 
         // compute a new value using program data
         const removified = data.text.replaceAll(data.toRemove, '');
 
