@@ -1,5 +1,5 @@
 import { list } from './logic.js';
-import { bulletPoint } from './data.js';
+
 
 export const listHandler = () => {
   // read & process user input
