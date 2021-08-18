@@ -1,1 +1,1 @@
-export const bulletPoint = _;
+export const bulletPoint = '*';
