@@ -16,7 +16,7 @@ There is no magical "best way" to use functions. Here is just 3 common roles fun
 
 ## Why use Functions?
 
-Other developers should be able to know WHAT your code does without needing to now HOW it works. Functions are great for this. Writing short single-purpose functions with good names has a few benefits:
+Other developers should be able to know WHAT your code does without needing to know HOW it works. Functions are great for this. Writing short single-purpose functions with good names has a few benefits:
 
 1. Your main program is easier to read: a single function call is simpler to read and understand than many lines of code.
 2. You can re-use your function many times in many places, each time with different arguments. This helps to avoid repeated code.
